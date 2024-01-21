@@ -119,9 +119,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://lazykrishna-b305ab75bb77.herokuapp.com/".format(FQDN)
+    URL = "https://jaatfilter-2b0772ad52eb.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://lazykrishna-b305ab75bb77.herokuapp.com/".format(FQDN)
+    URL = "https://jaatfilter-2b0772ad52eb.herokuapp.com/".format(FQDN)
 
 
 
